@@ -1,0 +1,50 @@
+Node JS installation - Linux
+
+[anup@c9-50-sentry ~]$ sudo dnf update
+[anup@c9-50-sentry ~]$ sudo yum install -y gcc-c++ make
+[anup@c9-50-sentry ~]$ curl -sL https://rpm.nodesource.com/setup_14.x | sudo bash -
+
+[anup@c9-50-sentry ~]$ sudo yum install -y nodejs
+[anup@c9-50-sentry ~]$ sudo dnf install -y nodejs
+[anup@c9-50-sentry ~]$ sudo yum install gcc-c++ make
+[anup@c9-50-sentry ~]$ curl -sL https://dl.yarnpkg.com/rpm/yarn.repo | sudo tee /etc/yum.repos.d/yarn.repo
+[anup@c9-50-sentry ~]$ sudo yum install yarn
+
+[anup@c9-50-sentry ~]$ node --version
+[anup@c9-50-sentry ~]$ npm --version
+[anup@c9-50-sentry ~]$ yarn --version
+
+
+[anup@c9-50-sentry ~]$ npm install --save @sentry/react @sentry/tracing
+
+
+
+Node JS installation - Windows
+
+https://nodejs.org/en/
+
+https://reactjs.org/docs/create-a-new-react-app.html
+
+
+PS D:\GITRepos> npx create-react-app react-project
+
+PS D:\GITRepos> cd .\react-project\
+
+PS D:\GITRepos> npm start
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
